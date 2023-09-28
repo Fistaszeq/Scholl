@@ -152,19 +152,66 @@ function zad6()
 
 }
 
+var box1 = document.getElementById("box1");
 
 
-function zad7() 
-{
-/*
-Zadanie 7.
-https://coderslab.pl/pl/javascript-challenge/instrukcje-warunkowe
-*/
+function zad7() {
+    // Zadanie 1
+    var ex1 = false;
+    if(ex1 != true)
+        {
+        	box.innerText += "Działam";
+        }
 
+
+        // Nie zmieniaj następującej linii kodu
+var ex2El = document.getElementById("box");
+
+// Zadanie 2
+var ex2 = true;
+
+if(ex2) {
+  ex2El.innerText += "Wykonuje kod znajdujący się w if.";
+}
+else {
+	ex2El.innerText += "Wykonuje kod znajdujący się w else.";
+}
+
+
+
+
+var ex3El = document.getElementById("box");
+var ex3HungerlevelEl = document.getElementById("box1");
+
+// Zadanie 3
+var hungerLevel = Math.floor((Math.random() * 10) + 1);
+ex3HungerlevelEl.innerText += hungerLevel;
+
+if(placeholder){  // W miejsce słowa placeholder wpisz odpowiedni warunek
+	ex3El.innerText += "Zjem później";
+}
+else{
+	ex3El.innerText += "Czas jeść";
+}
+
+
+
+// if(warunek) { // Jeżeli warunek się nie spełni, kod się nie wykona i 
+//     przejdzie dalej 
+//     //kod do wykonania 
+//     } 
+//     else if(warunek2) { // Jeżeli warunek się nie spełni, kod się nie wykona i 
+//     przejdzie dalej 
+//     //kod do wykonania } else if(warunek3) { // Jeżeli ten warunek się spełni, kod się wykona i 
+//     zignoruje resztę 
+//     //kod do wykonania 
+//     } 
+//     else { 
+//     //kod do wykonania 
+//     }
 
 
 }
-
 
 
 
