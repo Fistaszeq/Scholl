@@ -1,0 +1,27 @@
+body , html {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+div {
+    padding: 0.5em;
+    background-color: rgb(131, 131, 238);
+}
+
+h1 {
+    padding: 0.5em;
+    text-align:  center;
+    background-color: rgb(131, 131, 238);
+}
+
+button {
+    padding: 1em;
+    background-color:rgb(35, 35, 70);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(144, 144, 161);
+}
