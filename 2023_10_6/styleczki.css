@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+#box {
+    width: 100%;
+    position: fixed;
+}
+
+#leftSide {
+    float: left;
+    background-color: #394dcd;
+    color: white;
+}
+
+#RightSide {
+    float: right;
+    background-color: 	#6c6c6c;
+    color: black;
+}
+
+#RightSide, #leftSide {
+    width: 50%;
+    height: 100%;
+    min-height: 25em;
+}
+#leftOut {
+    padding: 1em;
+}
